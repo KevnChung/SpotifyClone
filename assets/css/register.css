@@ -1,0 +1,178 @@
+html, body {
+	
+	height: 100%;
+	width: 100%;
+
+	padding: 0;
+	margin: 0;
+}
+
+#background {
+
+	background-color: #000;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+#loginContainer * {
+
+	color: #fff;
+	font-family: "Brown", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	line-height: 1em;
+	box-sizing: border-box;
+}
+
+#loginContainer {
+
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1600px;
+}
+
+#inputContainer {
+
+	width: 731px;
+    height: 100%;
+    padding: 10vh;
+    padding-left: 330px;
+    padding-right: 40px;
+    margin-top: 70px;
+    float: left;
+    border-right: 1px solid #999;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    coldadad;
+    font-size: 16px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #adadad;
+   font-size: 16px;
+   opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #adadad;
+   font-size: 16px;
+   opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #adadad;
+   font-size: 16px;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #adadad;
+   font-size: 16px;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color: #adadad;
+   font-size: 16px;
+}
+
+#inputContainer h2 {
+
+	text-align: center;
+}
+
+#inputContainer input[type="text"], input[type="email"], input[type="password"]  {
+
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid #fff;
+	height: 35px;
+	line-height: 35px;
+	width: 100%;
+	font-size: 16px;
+}
+
+#inputContainer label {
+
+	color: #a0a0a0;
+	font-size: 14px;
+	margin-top: 5px;
+	display: block;
+}
+
+#inputContainer button {
+
+	background-color: transparent;
+    border: 2px solid #07d159;
+    border-radius: 500px;
+    color: #07d159;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 45px;
+    width: 100%;
+}
+
+#inputContainer button:hover {
+
+	cursor: pointer;
+}
+
+#inputContainer .errorMessage {
+
+	color: #07d159;
+	font-size: 12px;
+	display: block;
+}
+
+.hasAccountText span {
+
+	font-weight: bold;
+    font-size: 12px;
+}
+
+.hasAccountText {
+
+	text-align: center;
+	cursor: pointer;
+}
+
+#registerForm, #loginForm {
+
+	display: none;
+}
+
+#loginText {
+
+	padding: 45px;
+	display: table;
+    border-spacing: 0px 50px;
+}
+
+#loginText h1 {
+
+	color: #07d159;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+#loginText h2 {
+
+	margin: 40px 0;
+}
+
+#loginText ul {
+
+	padding: 0;
+}
+
+#loginText li {
+
+	font-size: 20px;
+	list-style-type: none;
+	padding: 10px 32px;
+	background: url("../images/icons/checkmark.png") no-repeat 0;
+}
+
+
